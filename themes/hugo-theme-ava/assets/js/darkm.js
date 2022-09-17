@@ -1,5 +1,5 @@
 window.onload = function () {
-    if (window.CSS && CSS.supports("color", "var(--sandman)")) {
+    /*if (window.CSS && CSS.supports("color", "var(--sandman)")) {
 
         const storage = localStorage.getItem("dark-mode");
 
@@ -32,5 +32,5 @@ window.onload = function () {
         toggleThemes.forEach(function (btn) {
             btn.addEventListener("click", toggleTheme);
         });
-    }
+    }*/
 }
