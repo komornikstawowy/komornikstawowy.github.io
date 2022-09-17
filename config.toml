@@ -1,0 +1,58 @@
+baseURL = "/"
+defaultContentLanguage = "pl"
+title = "Komornik Sądowy Patrycja Stawowy"
+theme = "hugo-theme-ava"
+paginate = 7
+
+[languages]
+  [languages.pl]
+      languageName = "Polski"
+
+enableEmoji = true
+enableRobotsTXT = true
+canonifyURLs = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.87.0"
+    
+[params]
+
+  [params.meta_tags]
+    meta_description = "Komornik Sądowy przy Sądzie Rejonowym w Prudniku Patrycja Stawowy"
+    meta_og_title = "Kancelaria Komornicza nr V w Prudniku"
+    meta_og_sitename = "Kancelaria Komornicza nr V w Prudniku"
+    meta_og_type = "website"
+    meta_og_url =  "https://komornik-stawowy.pl"
+    meta_og_image = "/pen_sentence.jpg"
+    meta_og_description = "Komornik Sądowy przy Sądzie Rejonowym w Prudniku Patrycja Stawowy"
+
+[markup]
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = true
+        lineNos = false
+        tabWidth = 4
+        noClasses = false
+        pygmentsUseClasses = true
+        pygmentsCodefences = true
+
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe= true   
+
+    [markup.blackFriday]
+        angledQuotes = true
+
+[[menu.main]]
+	name = "Strona główna"
+	url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Właściwość terytorialna"
+    url = "/territory/"
+    weight = 2
+
+
