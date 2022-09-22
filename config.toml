@@ -1,6 +1,6 @@
 baseURL = "https://komornikstawowy.github.io"
 defaultContentLanguage = "pl"
-title = "Komornik Sądowy Patrycja Stawowy"
+title = "KOMORNIK SĄDOWY przy Sądzie Rejonowym w Prudniku Patrycja Stawowy"
 theme = "hugo-theme-ava"
 paginate = 7
 
