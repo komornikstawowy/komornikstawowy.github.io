@@ -55,4 +55,8 @@ canonifyURLs = true
     url = "/territory/"
     weight = 2
 
+[[menu.main]]
+    name = "Polityka Bezpieczeństwa"
+    url = "/rodo/"
+    weight = 3
 
